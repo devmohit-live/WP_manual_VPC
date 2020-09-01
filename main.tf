@@ -25,7 +25,7 @@ depends_on=[
 	aws_key_pair.newKey
 ]
     content     = tls_private_key.keygen.private_key_pem
-    filename = "C:/Users/Dell/Downloads/webkey1.pem"
+    filename = "F:/Hybrid\ Cloud\task3\webkey1.pem"
 }
 
 
