@@ -191,7 +191,7 @@ depends_on=[
 
 # MySql Instance creation
 resource "aws_instance" "mysql-ins" {
-  ami           = "ami-0525596cfb1f1d80d"
+  ami           = "ami-0b7cb0a20b7f923bd"
   instance_type = "t2.micro"
   key_name      = "webkey1"
   availability_zone = "ap-south-1b"
